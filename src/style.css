@@ -1,0 +1,106 @@
+body {
+  font-family: 'Poiret One', cursive;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 20px;
+  position: relative;
+}
+.today-date,
+.wrapper,
+.buttons {
+  background: #f1f1f1;
+}
+.today-date,
+.buttons {
+  height: 50px;
+  width: 450px;
+}
+.today-date {
+  margin: 0px auto 10px;
+  text-align: center;
+  padding-top: 15px;
+}
+.day-name, .day-num, .month, .year,
+.nxt-prev-date  {
+  display: inline-block;
+}
+.wrapper,
+.calendar-table {
+  margin: auto;
+}
+.wrapper {
+  height: 400px;
+  width: 450px;
+  text-align: center;
+}
+.calendar-table,
+.btn {
+  color: #201f1f;
+}
+.calendar-table {
+  height: 300px;
+  width: 400px;
+  padding: 10px;
+  border-spacing: 0.5rem;
+  table-layout: fixed;
+}
+thead tr.weekdays-labels th, .days tr td {
+  width: 25px;
+  height: 45px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.days tr td:hover {
+  background-color: #dad9d8;
+}
+#prev-month-day, #next-month-day  {
+  color: #c6c6c6;
+}
+#today {
+  color: #f1f1f1;
+  background-color: #201f1f;
+}
+.buttons {
+  margin: 10px auto 0px;
+}
+.nxt-prev-date {
+  height: 100%;;
+  width: 350px;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+  padding-top: 15px;
+}
+.btn {
+  height: 100%;
+  width: 50px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+.btn:focus {
+  outline: none;
+}
+.prev-btn {
+  float: left;
+}
+.next-btn {
+  float: right;
+}
+.month-bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #99e6bc; /*fallback bg*/
+  transition: background 0.2s ease-in-out;
+  z-index: -999;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="src/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Calendar</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="today-date">
+        <h4 id="today-date"></h4>
+      </div>
+      <div class="wrapper" id='calendar-wrapper'>
+        <table class="calendar-table" id="calendar">
+          <thead>
+            <tr class="weekdays-labels" id="weekdays"></tr>
+          </thead>
+          <tbody class="days" id="days"></tbody>
+        </table>
+      </div>
+      <div class="buttons">
+        <button type="button" name="prev" class="btn prev-btn" id="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+        <div class="nxt-prev-date" id="nxt-prev-date">
+          <p class="month" id="month-label"></p>
+          <p class="year" id="year-label"></p>
+        </div>
+        <button type="button" name="next" class="btn next-btn" id="next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+      </div>
+      <div class="month-bg" id="background">
+
+      </div>
+    </div>
+
+
+    <script src="src/main.js"></script>
+  </body>
+</html>
