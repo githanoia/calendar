@@ -1,8 +1,10 @@
+![calendar](https://github.com/githanoia/calendar/blob/master/calendar.png)
+
+
 # calendar
 Simple Vanilla JS Calendar.
 
 
-![calendar](https://github.com/githanoia/calendar/blob/master/calendar.png)
-
+##### Play with it!! [JS Calendar on codepen](https://codepen.io/hanoia/pen/EbGwGw)
 
 
